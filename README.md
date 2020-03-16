@@ -1,9 +1,7 @@
 # flashscrape
 HTML5 tool for scraping football fixtures from flashscore and outputting them in CSV format.
 
-==========
-HOW TO USE
-==========
+## HOW TO USE
 1. Go to the website www.flashscore.com.
 2. Go to one of the pages on the site which lists football fixtures.
 3. Select all the text and copy it to the clipboard.
