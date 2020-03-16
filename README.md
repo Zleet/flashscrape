@@ -7,6 +7,7 @@ HTML5 tool for scraping football fixtures from flashscore and outputting them in
 3. Select all the text and copy it to the clipboard.
 4. Go to the flashscrape index.htm page.
 5. Paste the text into the top text box on the flashscrape page.
-6. Click the _ button.
+6. Click the _SCRAPE MATCHES_ button.
 7. The football fixtures, in CSV format, will now appear in the bottom text box.
 8. Select all the text in the bottom text box and copy it to the clipboard.
+9. Open Excel (or your favourite spreadsheet), then right click a cell and select _paste text_ to paste the fixtures into the spreadsheet.
