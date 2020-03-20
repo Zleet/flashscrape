@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<style>
+		
+			body {
+				background-color	: black;
+				color				: yellow;
+			}
+			
+			textarea {
+				width				: 600px;
+				height				: 200px;
+				border				: 3px solid yellow;
+				border-radius		: 20px;
+				background-color	: black;
+				color				: yellow;
+			}
+			
+			button {
+				background-color	: black;
+				color				: yellow;
+				border				: 3px solid yellow;
+				border-radius		: 10px;
+				font				: 12pt arial;
+				font-weight			: bold;
+			}
+			
+			#title_span {
+				font				: 40pt arial;
+			}
+
+		</style>
+
+		<script src="js.js"></script>
+	
+	</head>
+
+	<body>
+	
+		<table style="width: 100%;">
+			<tr>
+				<td align="center">
+					<!-- beginning of content -->
+					<span id="title_span">FlashScrape</span>
+					<div style="height: 20px;"></div>
+					<textarea id="input_textarea"></textarea>
+					<div style="height: 10px;"></div>
+					<button onclick="scrape_flashscore_football_matches_from_text()">SCRAPE MATCHES</button>
+					<div style="height: 10px;"></div>
+					<textarea id="output_textarea"></textarea>
+					<!-- end of content -->
+				</td>
+			</tr>
+		</table>
+	
+	</body>
+
+</html>
